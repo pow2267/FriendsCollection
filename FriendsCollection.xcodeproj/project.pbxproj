@@ -13,6 +13,8 @@
 		76220AA426C6A07900A71B24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76220AA226C6A07900A71B24 /* Main.storyboard */; };
 		76220AA626C6A07C00A71B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76220AA526C6A07C00A71B24 /* Assets.xcassets */; };
 		76220AA926C6A07C00A71B24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76220AA726C6A07C00A71B24 /* LaunchScreen.storyboard */; };
+		76220AB126C6A4D900A71B24 /* FriendCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76220AB026C6A4D900A71B24 /* FriendCollectionViewCell.swift */; };
+		76220AB326C6A7CF00A71B24 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76220AB226C6A7CF00A71B24 /* Friend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		76220AA526C6A07C00A71B24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76220AA826C6A07C00A71B24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76220AAA26C6A07C00A71B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76220AB026C6A4D900A71B24 /* FriendCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCollectionViewCell.swift; sourceTree = "<group>"; };
+		76220AB226C6A7CF00A71B24 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Friend.swift; path = ../../MyFriends/MyFriends/Friend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		76220A9B26C6A07900A71B24 /* FriendsCollection */ = {
 			isa = PBXGroup;
 			children = (
+				76220AB226C6A7CF00A71B24 /* Friend.swift */,
 				76220A9C26C6A07900A71B24 /* AppDelegate.swift */,
 				76220A9E26C6A07900A71B24 /* SceneDelegate.swift */,
 				76220AA026C6A07900A71B24 /* ViewController.swift */,
@@ -63,6 +68,7 @@
 				76220AA526C6A07C00A71B24 /* Assets.xcassets */,
 				76220AA726C6A07C00A71B24 /* LaunchScreen.storyboard */,
 				76220AAA26C6A07C00A71B24 /* Info.plist */,
+				76220AB026C6A4D900A71B24 /* FriendCollectionViewCell.swift */,
 			);
 			path = FriendsCollection;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76220AB126C6A4D900A71B24 /* FriendCollectionViewCell.swift in Sources */,
 				76220AA126C6A07900A71B24 /* ViewController.swift in Sources */,
+				76220AB326C6A7CF00A71B24 /* Friend.swift in Sources */,
 				76220A9D26C6A07900A71B24 /* AppDelegate.swift in Sources */,
 				76220A9F26C6A07900A71B24 /* SceneDelegate.swift in Sources */,
 			);
